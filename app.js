@@ -77,13 +77,7 @@ d3.json(apiUrl).then(data => {
     // Tooltip
     const tooltip = d3.select("body")
                       .append("div")
-                      .attr("class", "tooltip")
-                      .style("position", "absolute")
-                      .style("background", "#f9f9f9")
-                      .style("padding", "5px")
-                      .style("border", "1px solid #d3d3d3")
-                      .style("border-radius", "5px")
-                      .style("display", "none");
+                      .attr("class", "tooltip");
 }).catch(error => {
     console.error("Error fetching data:", error);
 });
