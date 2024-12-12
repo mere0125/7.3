@@ -11,3 +11,13 @@ h1 {
     display: flex;
     justify-content: center;
 }
+
+.tooltip {
+    position: absolute;
+    background: #f9f9f9;
+    padding: 5px;
+    border: 1px solid #d3d3d3;
+    border-radius: 5px;
+    pointer-events: none;
+    display: none;
+}
